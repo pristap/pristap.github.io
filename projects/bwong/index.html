@@ -1,0 +1,176 @@
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/themify.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/jquery-1.11.3.min.js"></script>
+  <title> BWONG! App </title>
+  <style>
+    .site-header {
+      border-bottom-style:solid;
+      border-bottom-width:1px;
+      height:50px;
+      overflow: auto;
+      background-color: \#E1C800;
+    }
+    .site-footer {
+      border-top-style: solid;
+      border-top-width: 1px;
+      background-color: \#E1C800;
+    }
+  </style>
+</head>
+
+
+  <body>
+    <header class="site-header">
+  <div class="container">
+
+    <div class="one-half column" id="site-name">
+      <h3 align="center"> <a href="/">  pristap </a> </h3>
+    </div>
+
+    <div class="one-half column" id="menu">
+      <table>
+        <tr>
+          <td> <h5> <a href="/about">  <span class="ti-user"></span> </a> </h5> </td>
+      		<td> <h5> <a href="/projects"> <span class="ti-apple"></span> </a> </h5> </td>
+      		<td> <h5> <a href="/blog"> <span class="ti-pencil"></span> </a> </h5>  </td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+</header>
+
+
+    <div class="wrapper">
+
+      <div class="intro" id="section1" data-anchor="Intro" style="background-image:url(../../images/bwong/background.png)">
+        <div class="logo">
+          <img class="displayed-logo" alt="BwongApp logo" src="../../images/bwong/logo.png" height="200" width="200">
+        </div>
+        <div class="text">
+          <p> Do you ever feel an epic moment is about to happen in your life? <br/> Add extra drama to that moment with the famous horn from all the movie trailers you've seen lately. </p>
+          <img src="../..//images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="100px" width="200px"/>
+          <img src="../../images/Download_on_the_Mac_App_Store_Badge_US-UK_165x40.svg" height="100px" width="200px"/>
+        </div>
+      </div>
+
+      <div class="iphone" id="left" style="background-color:\#E1C800;">
+        <div class="row">
+
+        <div class="one-half column">
+          <div class="iphone-device">
+            <div class="displayed-iphone">
+              <img class="screenPhone" id="screenPhone" src="../../screenshots/bwong/iPhone/screen1.png" height="490em" width="212em">
+
+              <script>
+                var images = ["../../screenshots/bwong/iPhone/screen1.png", "../../screenshots/bwong/iPhone/screen2.png", "../../screenshots/bwong/iPhone/screen3.png"];
+                var img = document.getElementById('screenPhone');
+                var i = 0;
+                slide();
+
+                function slide() {
+                  $(".screenPhone").fadeOut(5);
+                  img.src = images[i];
+                  i++;
+                  if ( i > 2 ) {
+                     i=0;
+                  }
+                  $(".screenPhone").fadeIn(500);
+                  setTimeout("slide()",2500);
+                }
+              </script>
+
+            </div>
+         </div>
+       </div>
+
+         <div class="one-half column">
+         <div class="iphone-text">
+           <p> Send & receive drama on your iPhone <br/> <br/> Download for free!</p>
+         </div>
+       </div>
+
+       </div>
+    </div>
+
+    <div class="ipad" id="right" style="background-color:\#000000;">
+      <div class="row">
+      <div class="one-half column">
+        <div class="ipad-text" >
+          <p> Want to have even more fun? <br/> <br/> Download on your iPad! </p>
+        </div>
+      </div>
+
+      <div class="one-half column">
+        <div class="ipad-device">
+          <div class="displayed-ipad">
+            <img class="screeniPad" id="screeniPad" src="../../screenshots/bwong/iPad/ipad1.png" height="400em" width="300em">
+
+            <script>
+              var images2 = ["../../screenshots/bwong/iPad/ipad1.png", "../../screenshots/bwong/iPad/ipad2.png", "../../screenshots/bwong/iPad/ipad3.png"];
+              var img2 = document.getElementById('screeniPad');
+              var i = 0;
+              slidePad();
+
+              function slidePad() {
+                $(".screeniPad").fadeOut(5);
+                img2.src = images2[i];
+                i++;
+                if ( i > 2 ) {
+                   i=0;
+                }
+                $(".screeniPad").fadeIn(500);
+                setTimeout("slidePad()",2500);
+              }
+            </script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <div class="watch" id="left" style="background-color:\#E1C800;">
+      <div class="row">
+      <div class="one-half column">
+        <div class="watch-device">
+          <img class="displayed-watch" src="../../frames/watch-frame.png" height="400em" width="200em"/>
+        </div>
+      </div>
+
+      <div class="one-half column">
+        <div class="watch-text">
+          <p> And there is even more... <br/> <br/> Now available for your Apple Watch! </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<footer class="site-footer">
+
+  <div align="center" class="wrapper">
+
+    <table>
+      <tr>
+        <td> <a href=""> Sitemap </a> </td>
+        <td> <a href=""> RSS </a> </td>
+      </tr>
+    </table>
+
+  </div>
+
+</footer>
+
+
+  </body>
+</html>
