@@ -54,9 +54,15 @@
     float: right;
     padding-right: 2em;
   }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   h3 {
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+  h5 {
+    font-size: 0.5em;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 /* For devices smaller than 550px */
