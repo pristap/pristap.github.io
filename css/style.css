@@ -50,6 +50,12 @@ p {
   margin-right: auto;
   padding-bottom: 3em;
 }
+.appstore {
+  margin-top: 1em;
+}
+.macstore {
+  margin-top: 1em;
+}
 
 .intro {
   background-size: cover;
