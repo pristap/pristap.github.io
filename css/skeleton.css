@@ -54,9 +54,21 @@
     float: right;
     padding-right: 2em;
   }
-  .dropdown {
-    display: none;
+
+  td ul {
+    background:rgba(255,255,255,0);
+    list-style:none;
+    position:absolute;
+    top: 0px;
+    left:-9999px;
   }
+  td ul li {
+    float:none;
+  }
+  td ti-apple:hover ul{
+    left:0;
+}
+
 @media (max-width: 320px) {
   h3 {
     font-size: 0.8em;
