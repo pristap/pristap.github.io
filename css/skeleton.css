@@ -54,8 +54,12 @@
     float: right;
     padding-right: 2em;
   }
-
-/* For devices larger than 400px */
+@media (max-width: 300px) {
+  h3 {
+    font-size: 1em;
+  }
+}
+/* For devices smaller than 550px */
 @media (max-width: 550px) {
   #site-name {
     float: left;
@@ -481,21 +485,6 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-/* Header & footer
-------------------------------------------------*/
-#footer {
-  text-align: center;
-}
-
-#header {
-  text-align: center;
-}
-
-/* Blog Page
------------------------------------------------*/
-#blogPage {
-  text-align: center;
-}
 
 
 /* Fonts
