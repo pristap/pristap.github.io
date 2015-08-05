@@ -20,11 +20,11 @@
         border-bottom-style:solid;
         border-bottom-width:1px;
         height:50px;
-        overflow: hidden;
+        overflow: visible;
         top: 0;
         position: fixed;
         width: 100%;
-        z-index: 100;
+        z-index: 9000;
         background-color: rgba(255, 255, 255, 0.75);
     }
     .site-footer {
@@ -35,6 +35,17 @@
       right: 0;
       bottom: 0;
       left: 0;
+    }
+    .app-logo-iphone {
+      border: 1px solid black;
+      border-radius:50px;
+    }
+    .app-logo-watch {
+      border: 1px solid black;
+      border-radius:100px;
+    }
+    #menu ul ul {
+      background-color: #FFFFFF;
     }
     .homePage {
       display: block;
@@ -56,20 +67,20 @@
     </div>
 
     <div class="one-half column" id="menu">
-      <table>
-        <tr>
-          <td> <h5> <a href="/about">  <span class="ti-user"></span> </a> </h5> </td>
-      		<td> <h5> <a href="/projects"> <span class="ti-apple"></span> </a> </h5>
-            <ul class="dropdown">
-              <li><a href="/projects/iphone"> iPhone </a></li>
-              <li><a href="/projects/ipad"> iPad </a></li>
-              <li><a href="/projects/mac"> Mac </a></li>
-              <li><a href="/projects/watch"> Watch </a></li>
-            </ul>
-          </td>
-      		<td> <h5> <a href="/blog"> <span class="ti-pencil"></span> </a> </h5>  </td>
-        </tr>
-      </table>
+
+    <ul>
+        <li> <h5> <a href="/about">  <span class="ti-user"></span> </a> </h5> </li>
+        <li> <h5> <a href="/projects"> <span class="ti-apple"></span> </a> </h5>
+          <ul>
+            <li> <a href="/projects/iphone"> iPhone </a> </li>
+            <li> <a href="/projects/ipad"> iPad </a> </li>
+            <li> <a href="/projects/mac"> Mac </a> </li>
+            <li> <a href="/projects/watch"> Watch </a> </li>
+          </ul>
+        </li>
+        <li> <h5> <a href="/blog"> <span class="ti-pencil"></span> </a> </h5> </li>
+      </ul>
+
     </div>
 
   </div>
@@ -99,7 +110,7 @@
         <div class="container">
         <div class="row">
           <div class="one-third column">
-            <a href="/projects/bwong/"> <img class="app-logo" src="/images/appLogos/bwong.png" height="200px" width="200px" /> </a>
+            <a href="/projects/bwong/"> <img class="app-logo-iphone" src="/images/appLogos/bwong.png" height="200px" width="200px" /> </a>
           </div>
           <div class="two-thirds column">
             Do you ever feel an epic moment is about to happen in your life? <br /> Add extra drama to that moment with the famous horn from all the movie trailers you've seen lately.
@@ -121,7 +132,7 @@
         <div class="container">
         <div class="row">
           <div class="one-third column">
-            <a href="/projects/horoscope/"> <img class="app-logo" src="/images/appLogos/horoscope.png" height="200px" width="200px" /> </a>
+            <a href="/projects/horoscope/"> <img class="app-logo-iphone" src="/images/appLogos/horoscope.png" height="200px" width="200px" /> </a>
           </div>
           <div class="two-thirds column">
             The name says it all, your daily horoscope app!
@@ -137,13 +148,19 @@
     
   
     
+  
+    
+  
+    
+  
+    
       <li>
         <b> Monitor App </b>
         <br /> <br />
         <div class="container">
         <div class="row">
           <div class="one-third column">
-            <a href="/projects/monitor/"> <img class="app-logo" src="/images/appLogos/monitor.png" height="200px" width="200px" /> </a>
+            <a href="/projects/monitor/"> <img class="app-logo-watch" src="/images/appLogos/monitor.png" height="200px" width="200px" /> </a>
           </div>
           <div class="two-thirds column">
             Check your phone's battery, measure your speed and latitude!
@@ -154,6 +171,8 @@
         </div>
       </li>
       <br />
+    
+  
     
   
     
