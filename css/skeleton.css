@@ -135,17 +135,23 @@ body {
     float: left;
     max-width: 50%;
   }
-
   #menu {
     float: left;
     max-width: 50%;
   }
-
   #projectsMenu {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+  #footer-info {
+    float: left;
+    max-width: 50%;
+  }
+  #footer-links {
+    float: right;
+    max-width: 50%;
   }
   .app-logo-iphone, .app-logo-watch {
     display: block;
