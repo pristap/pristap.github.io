@@ -73,7 +73,7 @@ body {
   #menu ul a {
   	display:block;
   	text-decoration:none;
-  	padding:0 15px;
+  	padding-right: 0.8em;
   }
 
   #menu ul li, #projectsMenu ul li{
@@ -89,6 +89,9 @@ body {
   }
   #projectsMenu ul a {
     padding-right: 1em;
+  }
+  #projectsMenu ul li {
+    margin-top: 0.5em;
   }
   #projectsMenu ul li:hover {
     text-decoration: underline;
