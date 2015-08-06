@@ -91,7 +91,7 @@ body {
     padding-right: 1em;
   }
   #projectsMenu ul li {
-    margin-top: 0.5em;
+    margin-top: 0.8em;
   }
   #projectsMenu ul li:hover {
     text-decoration: underline;
@@ -147,14 +147,8 @@ body {
     float: left;
     max-width: 50%;
   }
-  #projectsMenu ul {
-    text-align: center;
-  }
-  #projectsMenu ul li {
-    display: inline;
-  }
-  #projectsMenu ul a {
-    text-align: center;
+  #projectsMenu {
+    margin-left: 25%;
   }
   #footer-info {
     float: left;
