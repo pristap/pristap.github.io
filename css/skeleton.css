@@ -62,7 +62,7 @@ body {
     padding-left: 1em;
   }
 
-  #menu ul {
+  #menu ul, #projectsMenu ul {
   	list-style:none;
   	position:relative;
     float: right;
@@ -70,38 +70,21 @@ body {
     padding-right: 2em;
   }
 
-  #menu ul a {
+  #menu ul a, #projectsMenu ul a {
   	display:block;
   	text-decoration:none;
   	padding:0 15px;
   }
 
-  #menu ul li{
+  #menu ul li, #projectsMenu ul li{
   	position:relative;
   	float:left;
   	margin:0;
   	padding:0;
   }
-
-  #menu ul ul {
-  	display:none;
-  	position:absolute;
-  	top:30%;
-  	left:0;
-  	padding:0;
-    overflow: hidden;
-  }
-
-  #menu ul ul li {
-  	float:none;
-  }
-
-  #menu ul ul a {
-  	padding:10px 15px 0px 0px;
-  }
-
-  #menu ul li:hover > ul {
-  	display:block;
+  
+  #projectsMenu ul li:hover {
+    text-decoration: underline;
   }
 
 @media (max-width: 320px) {
