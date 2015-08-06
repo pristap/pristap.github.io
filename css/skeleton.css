@@ -63,14 +63,13 @@ body {
     padding-left: 1em;
   }
 
-  #menu ul, #projectsMenu ul {
+  #menu ul {
   	list-style:none;
   	position:relative;
     float: right;
     padding-top: 0.5em;
     padding-right: 2em;
   }
-
   #menu ul a {
   	display:block;
   	text-decoration:none;
@@ -83,10 +82,14 @@ body {
   	margin:0;
   	padding:0;
   }
+  #projectsMenu ul {
+    list-style: none;
+    position: relative;
+    padding: 0.5em, 2em;
+  }
   #projectsMenu ul a {
     padding-right: 1em;
   }
-
   #projectsMenu ul li:hover {
     text-decoration: underline;
   }
@@ -141,25 +144,11 @@ body {
     float: left;
     max-width: 50%;
   }
-  #projects-title {
+  #projectsMenu ul {
     text-align: center;
   }
-  #projectsMenu {
-      float:none;
-      position:relative;
-      left:-50%;
-      text-align:left;
-  }
-  #projectsMenu ul {
-    list-style:none;
-    position:relative;
-    display: block;
-    left:35%;
-    margin-left: auto;
-    margin-right: auto;
-  }
   #projectsMenu ul li {
-    float:left;position:relative;
+    display: inline;
   }
   #projectsMenu ul a {
     text-align: center;
