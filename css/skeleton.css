@@ -108,7 +108,7 @@ body {
   .site-footer ul a {
     display: block;
     text-decoration: none;
-    padding-right: 0.5em;
+    padding-right: 1em;
   }
   .site-footer ul li {
     position: relative;
