@@ -61,9 +61,7 @@ body {
     float: left;
     padding-left: 1em;
   }
-  .menu-more {
-    display: none;
-  }
+
   #menu ul, #projectsMenu ul {
   	list-style:none;
   	position:relative;
@@ -110,7 +108,7 @@ body {
   .site-footer ul a {
     display: block;
     text-decoration: none;
-    padding: 0 15px;
+    padding-right: 0.5em;
   }
   .site-footer ul li {
     position: relative;
@@ -164,8 +162,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .one-third {
   }
   .two-thirds {
     text-align: center;
@@ -240,12 +236,7 @@ body {
 }
 
 @media (max-width:750px) {
-  .menu-more {
-    display: visible;
-  }
-  .menu-alt {
-    display: none;
-  }
+
 }
 
 
