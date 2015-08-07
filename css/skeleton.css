@@ -136,6 +136,10 @@ body {
   body {
     overflow-x: hidden;
   }
+  .home-image {
+    height: 250px;
+    width: 200px;
+  }
 }
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
