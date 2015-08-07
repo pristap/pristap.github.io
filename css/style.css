@@ -76,19 +76,6 @@ body {
   float: left;
   height: 1em;
 }
-.button-platform {
-  border-radius:12px;
-  text-align: center;
-  font-size: 0.6em;
-  font-weight: lighter;
-  padding: 0 15px;
-  color: #FFFFFF;
-  background-color: #5D5C5E;
-  border-color: #5D5C5E;
-}
-.button-platform:hover {
-  color: #FFFFFF;
-}
 
 @media (max-width: 320px) {
   h3 {
