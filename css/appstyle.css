@@ -1,0 +1,318 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 1.9em;
+  overflow-x: hidden;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+#left {
+  width: 100%;
+  height: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#right {
+  width: 100%;
+  height: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: #FFFFFF;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.iphone, .ipad, .watch {
+  overflow: auto;
+  display: table;
+  height: auto;
+  max-height: 100%;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  display: table-row;
+  overflow: auto;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3em;
+}
+.appstore {
+  margin-top: 1em;
+}
+.macstore {
+  margin-top: 1em;
+}
+
+.intro {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 8em;
+  padding-bottom: 7.5em;
+  color: #FFFFFF;
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayed-logo {
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayed-iphone {
+  overflow: hidden;
+  max-height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: url("../frames/phone-frame.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 550em;
+  width: 370em;
+}
+
+.screenPhone {
+  padding-top: 3.25em;
+  padding-left: 3.65em;
+}
+
+.displayed-ipad {
+  max-height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: url("../frames/ipad-frame.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 600em;
+  width: 370em;
+}
+
+.screeniPad {
+  padding-top: 2.38em;
+  padding-left: 0.9em;
+}
+
+.displayed-watch {
+  max-height: 400em;
+  max-width: 200em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iphone-device {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.iphone-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5em;
+  text-align: center;
+  position: relative;
+}
+
+.ipad-device {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden;
+  width: 90%;
+}
+
+.ipad-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5em;
+  text-align: center;
+  position: relative;
+}
+
+.watch-device {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.watch-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5em;
+  text-align: center;
+  position: relative;
+}
+
+.one-half {
+  overflow: auto;
+  min-width: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (min-width:100px) {
+  .displayed-iphone {
+    max-height: 600px;
+    max-width: 320px;
+  }
+  .screenPhone {
+    padding-top: 6.4em;
+    padding-left: 3.27em;
+    max-height: 346.5px;
+    width: 196px;
+  }
+  .displayed-ipad {
+    max-height: 560px;
+    max-width: 300px;
+  }
+  .screeniPad {
+    padding-top: 5.2em;
+    padding-left: 0.8em;
+    max-height: 353px;
+    width: 265px;
+  }
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  p {
+    font-size: 1.7rem;
+  }
+  .displayed-logo {
+    max-height: 150px;
+    max-width: 150px;
+  }
+  .text {
+    font-size: 1.7rem;
+  }
+  .displayed-iphone {
+    max-height: 450px;
+    max-width: 320px;
+  }
+  .screenPhone {
+    padding-top: 2.8em;
+    padding-left: 3.5em;
+    max-height: 333.1px;
+    width: 187px;
+  }
+  .displayed-ipad {
+    max-height: 420px;
+    max-width: 250px;
+  }
+  .screeniPad {
+    padding-top: 3.06em;
+    padding-left: 0.68em;
+    max-height: 294.7px;
+    width: 221px;
+  }
+  .displayed-watch {
+    max-height: 350px;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  p {
+    font-size: 1.8rem;
+  }
+  .displayed-logo {
+    max-height: 180px;
+    max-width: 180px;
+  }
+  .text {
+    font-size: 1.8rem;
+  }
+  .displayed-iphone {
+    max-height: 500px;
+    max-width: 350px;
+  }
+  .screenPhone {
+    padding-top: 3.15em;
+    padding-left: 3.7em;
+    max-height: 370px;
+    width: 208px;
+  }
+  .displayed-ipad {
+    max-height: 600px;
+    max-width: 340px;
+  }
+  .screeniPad {
+    padding-top: 4.9em;
+    padding-left: 0.93em;
+    max-height: 640px;
+    width: 300px;
+  }
+  .displayed-watch {
+    max-height: 370px;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  p {
+    font-size: 1.9rem;
+  }
+  .displayed-logo {
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .text {
+    font-size: 1.9rem;
+  }
+  .displayed-iphone {
+    max-height: 520px;
+  }
+  .screenPhone {
+    padding-top: 3.4em;
+    padding-left: 3.6em;
+    max-height: 378.5px;
+    width: 213.5px;
+  }
+  .displayed-ipad {
+    max-height: 700px;
+  }
+  .screeniPad {
+    padding-top: 7.58em;
+    padding-left: 0.92em;
+    max-height: 400px;
+    width: 300px;
+  }
+  .displayed-watch {
+    max-height: 400px;
+  }
+}
