@@ -79,7 +79,7 @@ body {
 .button-platform {
   border-radius:12px;
   text-align: center;
-  font-size: 0.4em;
+  font-size: 0.6em;
   font-weight: lighter;
   padding: 0 15px;
   color: #FFFFFF;
@@ -107,6 +107,9 @@ body {
 }
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
+  .button-platform {
+    font-size: 0.7em;
+  }
   #site-name {
     float: left;
     max-width: 50%;
