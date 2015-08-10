@@ -83,6 +83,12 @@ body {
   letter-spacing: 0.1px;
 }
 
+@media (max-width: 320px) {
+  .home-image {
+    height: 250px;
+    width: 200px;
+  }
+}
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
   .button-platform {
