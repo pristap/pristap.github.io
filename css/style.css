@@ -8,7 +8,6 @@ body {
   min-height: 100%;
   overflow-x: hidden;
 }
-
 button {
   padding: 0 8px;
 }
@@ -38,6 +37,7 @@ button {
   padding:0;
 }
 #projectsMenu ul {
+  float: right;
   list-style: none;
   position: relative;
   padding: 0.5em, 2em;
@@ -51,7 +51,6 @@ button {
 #projectsMenu ul li:hover {
   text-decoration: underline;
 }
-
 #footer-links {
   list-style:none;
   position:relative;
@@ -93,7 +92,7 @@ button {
   font-size: 11px;
   padding: 0 4px;
   height: auto;
-  color:  #A8A8A8;
+  color:  #9B9C9C;
   border: 2px solid rgba(187,187,187,0.5);
   border-radius: 4px;
   white-space: nowrap;
@@ -101,8 +100,14 @@ button {
   margin-right: 5px;
   margin-top: 5px;
 }
+.category-item a {
+  color:  #9B9C9C;
+}
 .home-image {
   padding-top: 20px;
+}
+.menu-projects a {
+  color: #626565;
 }
 
 @media (max-width: 320px) {
@@ -157,5 +162,7 @@ button {
     margin-left: auto;
     margin-right: auto;
   }
-
+  #projectsMenu ul {
+    float: left;
+  }
 }
