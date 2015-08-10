@@ -107,6 +107,9 @@ button {
     height: 250px;
     width: 200px;
   }
+  .menu-projects {
+    font-size: 15px;
+  }
 }
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
