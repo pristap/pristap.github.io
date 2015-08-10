@@ -170,3 +170,8 @@ button {
     padding-right: 0.5em;
   }
 }
+@media (max-width:700px) {
+  #projectsMenu ul a {
+    font-size: 0.8em;
+  }
+}
