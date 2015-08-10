@@ -445,10 +445,3 @@ there.
 
 /* Fonts
 -----------------------------------------------*/
-
-@font-face {
-  font-family: 'Bonveno';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/BonvenoCF-Light.otf);
-}

@@ -138,9 +138,17 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 10em;
+  /*margin-top: 10em;*/
   text-align: center;
+}
+.one-half p {
   position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .ipad-device {

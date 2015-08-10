@@ -66,6 +66,14 @@ button {
   padding-left: 2em;
   height: 1em;
 }
+.app-logo-iphone {
+  border: 1px solid black;
+  border-radius:50px;
+}
+.app-logo-watch {
+  border: 1px solid black;
+  border-radius:100px;
+}
 .site-footer ul {
   height: 1em;
 }
@@ -104,6 +112,9 @@ button {
   color:  #9B9C9C;
 }
 .home-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 20px;
 }
 .menu-projects a {
@@ -171,4 +182,11 @@ button {
     font-size: 0.8em;
     padding-right: 0.5em;
   }
+}
+
+@font-face {
+  font-family: 'Bonveno';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/BonvenoCF-Light.otf);
 }
