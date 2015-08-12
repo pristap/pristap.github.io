@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/appstyle.css">
   <script src="/js/jquery-1.11.3.min.js"></script>
-  <title> Monitor App </title>
+  <title> Horoscope App </title>
   <style>
     .site-header {
       border-bottom-style:solid;
@@ -50,9 +50,9 @@
 
     <div class="one-half column" id="menu">
       <ul>
-        <li> <h5> <a href="/about">  <span class="ti-user"></span> </a> </h5> </li>
-        <li> <h5> <a href="/projects"> <span class="ti-apple"></span> </a> </h5> </li>
-        <li> <h5> <a href="/blog"> <span class="ti-pencil"></span> </a> </h5> </li>
+        <li> <h5> <a href="/about">  <span class="ti-user"></span> <h6 class="menu-name"> about </h6> </a> </h5> </li>
+        <li> <h5> <a href="/apps"> <span class="ti-apple"></span> <h6 class="menu-name"> apps </h6> </a> </h5> </li>
+        <li> <h5> <a href="/blog"> <span class="ti-pencil"></span> <h6 class="menu-name"> blog </h6> </a> </h5> </li>
       </ul>
     </div>
 
@@ -62,15 +62,17 @@
 
     <div class="wrapper">
 
-      <div class="intro" id="section1" data-anchor="Intro" style="background-image:url(../../images/monitor/background.png)">
+      <div class="intro" id="section1" data-anchor="Intro" style="background-image:url(../../images/horoscope/background.png)">
         <div class="logo">
-          <a href="/projects/monitor"><img class="app-logo-watch" src="/images/appLogos/monitor.png" height="200" width="200"></a>
+          <a href="/projects/horoscope"><img class="app-logo-iphone" src="/images/appLogos/horoscope.png" height="200" width="200"></a>
         </div>
         <div class="text">
-          <p> Check your phone's battery, measure your speed and latitude! </p>
+          <p> The name says it all, your daily horoscope app! </p>
 
-          <a href=""> <img class="appstore" src="../..//images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="50"/> </a>
+          <a href="https://itunes.apple.com/mk/app/daily-horoscope/id892389886?mt=8"> <img class="appstore" src="../..//images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="50"/> </a>
 
+          
+            
           
             
           
@@ -87,10 +89,10 @@
         <div class="one-half column">
           <div class="iphone-device">
             <div class="displayed-iphone">
-              <img class="screenPhone" id="screenPhone" src="../../screenshots/monitor/iPhone/screen1.png" height="490em" width="212em">
+              <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen1.png" height="490em" width="212em">
 
               <script>
-                var images = ["../../screenshots/monitor/iPhone/screen1.png", "../../screenshots/monitor/iPhone/screen2.png", "../../screenshots/monitor/iPhone/screen3.png"];
+                var images = ["../../screenshots/horoscope/iPhone/screen1.png", "../../screenshots/horoscope/iPhone/screen2.png", "../../screenshots/horoscope/iPhone/screen3.png"];
                 var img = document.getElementById('screenPhone');
                 var i = 0;
                 slide();
@@ -122,7 +124,7 @@
   </div>
 
     <div id="ipad">
-    <div class="ipad" id="right" style="background-color:\#000000;">
+    <div class="ipad" id="right" style="background-color:\#2F3671;">
       <div class="row">
       <div class="one-half column">
         <div class="ipad-text" >
@@ -133,10 +135,10 @@
       <div class="one-half column">
         <div class="ipad-device">
           <div class="displayed-ipad">
-            <img class="screeniPad" id="screeniPad" src="../../screenshots/monitor/iPad/ipad1.png" height="400em" width="300em">
+            <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad1.png" height="400em" width="300em">
 
             <script>
-              var images2 = ["../../screenshots/monitor/iPad/ipad1.png", "../../screenshots/monitor/iPad/ipad2.png", "../../screenshots/monitor/iPad/ipad3.png"];
+              var images2 = ["../../screenshots/horoscope/iPad/ipad1.png", "../../screenshots/horoscope/iPad/ipad2.png", "../../screenshots/horoscope/iPad/ipad3.png"];
               var img2 = document.getElementById('screeniPad');
               var i = 0;
               slidePad();

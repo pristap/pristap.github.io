@@ -28,6 +28,7 @@ button {
   display:block;
   text-decoration:none;
   padding-right: 0.8em;
+  font-size: 0.9em;
 }
 
 #menu ul li, #projectsMenu ul li{
@@ -46,11 +47,18 @@ button {
   padding-right: 1em;
 }
 #projectsMenu ul li {
-  margin-top: 0.8em;
+  padding-top: 0.5em;
 }
 #projectsMenu ul li:hover {
   text-decoration: underline;
 }
+#projects-bar {
+  height: 35px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #9B9C9C;
+}
+
 #footer-links {
   list-style:none;
   position:relative;
@@ -119,6 +127,10 @@ button {
 }
 .menu-projects a {
   color: #626565;
+}
+.menu-name {
+  padding-left: 0;
+  text-align: left;
 }
 
 @media (max-width: 320px) {
