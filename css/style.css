@@ -40,28 +40,39 @@ ul {
   margin:0;
   padding:0;
 }
+#projects-title a{
+  padding-top: 0;
+}
 #projectsMenu ul {
   float: right;
   list-style: none;
   position: relative;
-  padding: 0.5em, 2em;
 }
 #projectsMenu ul a {
   padding-right: 1em;
 }
 #projectsMenu ul li {
-  padding-top: 0.5em;
+  padding-top: 0;
+  white-space: normal;
 }
 #projectsMenu ul li:hover {
   text-decoration: underline;
 }
 #projects-bar {
-  height: 35px;
+  height: 33px;
   border-bottom-style: solid;
   border-bottom-width: thin;
-  border-bottom-color: #9B9C9C;
+  border-bottom-color: #BFC2C2;
 }
-
+#iphone-item {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#watch-item {
+  border-right: 1px solid #BFC2C2;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
 #footer-links {
   list-style:none;
   position:relative;
@@ -133,23 +144,13 @@ ul {
   font-weight: lighter;
   font-size: 13px;
   padding: 0 4px;
-  height: auto;
-  color:  #6B6F70;
-  border: 1px solid rgba(187,187,187,0.5);
-  border-radius: 4px;
+  color: #BFC2C2;
+  border-top: 1px solid #BFC2C2;
+  border-left: 1px solid #BFC2C2;
+  border-bottom: 1px solid #BFC2C2;
   white-space: nowrap;
   display: inline-block;
-  margin-right: 5px;
   margin-top: 5px;
-
-}
-.menu-projects a:hover {
-  background-color: #979999;
-  color: #FFFFFF;
-}
-.clicked {
-  background-color: #979999;
-  color: #FFFFFF;
 }
 .menu-name {
   padding-left: 0;
