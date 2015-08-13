@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/css/themify.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/jquery-1.11.3.min.js"></script>
   <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/benveno" rel="stylesheet" type="text/css"/>
   <link rel="canonical" href="http://pristap.com/devices/apple-watch/">
   <link rel="alternate" type="application/rss+xml" title="pristap" href="http://pristap.com/feed.xml" />
@@ -74,19 +75,27 @@
     </div>
 
     <div class="one-half column" id="projectsMenu">
-        <ul class="menu-projects">
-          <li> <h6><b> <a href="/devices/iphone"> <span class="ti-mobile"></span> iPhone </a> </b></h6> </li>
-          <li> <h6><b> <a href="/devices/ipad"> <span class="ti-tablet"></span> iPad </a> </b></h6> </li>
-          <li> <h6><b> <a href="/devices/mac"> <span class="ti-desktop"></span> Mac </a> </b></h6> </li>
-          <li> <h6><b> <a href="/devices/apple-watch"> <span class="ti-alarm-clock"></span> Apple Watch </a> </b></h6> </li>
+        <ul class="menu-projects" id="menu-list">
+          <li> <h6><b> <a href="/devices/iphone" id="iphone-item"> <span class="ti-mobile"></span> iPhone </a> </b></h6> </li>
+          <li> <h6><b> <a href="/devices/ipad" id="ipad-item"> <span class="ti-tablet"></span> iPad </a> </b></h6> </li>
+          <li> <h6><b> <a href="/devices/mac" id="mac-item"> <span class="ti-desktop"></span> Mac </a> </b></h6> </li>
+          <li> <h6><b> <a href="/devices/apple-watch" id="watch-item"> <span class="ti-alarm-clock"></span> Apple Watch </a> </b></h6> </li>
         </ul>
     </div>
+
 </div>
 </div>
 
 <div class="post">
   <article class="post-content">
-    <ul>
+    <style>
+  #apple watch-item {
+    background-color: #979999;
+    color: #FFFFFF;
+  }
+</style>
+
+<ul>
   
     
     

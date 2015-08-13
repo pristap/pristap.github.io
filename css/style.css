@@ -11,6 +11,9 @@ body {
 button {
   padding: 0 8px;
 }
+ul {
+  list-style: none;
+}
 
 #site-name a {
   float: left;
@@ -126,7 +129,27 @@ button {
   padding-top: 20px;
 }
 .menu-projects a {
-  color: #626565;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 13px;
+  padding: 0 4px;
+  height: auto;
+  color:  #6B6F70;
+  border: 1px solid rgba(187,187,187,0.5);
+  border-radius: 4px;
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+
+}
+.menu-projects a:hover {
+  background-color: #979999;
+  color: #FFFFFF;
+}
+.clicked {
+  background-color: #979999;
+  color: #FFFFFF;
 }
 .menu-name {
   padding-left: 0;
