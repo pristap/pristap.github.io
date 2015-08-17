@@ -1,4 +1,4 @@
-var menu = document.findElementById("menu-icon");
+var menu = document.findElementByClassName("menu-hidden");
 menu.addEventListener("click", function(){
   alert("hello");
 });
