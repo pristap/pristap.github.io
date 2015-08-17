@@ -14,7 +14,10 @@ button {
 ul {
   list-style: none;
 }
-
+#menu span {
+  display: block;
+  margin-left: 25%;
+}
 #site-name a {
   float: left;
   padding-left: 1em;
@@ -39,9 +42,6 @@ ul {
   float:left;
   margin:0;
   padding:0;
-}
-#projects-title a{
-  padding-top: 0;
 }
 #projectsMenu ul {
   float: right;
@@ -150,12 +150,13 @@ ul {
   border-bottom: 1px solid #BFC2C2;
   white-space: nowrap;
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 0px;
 }
-.menu-name {
-  padding-left: 0;
-  text-align: left;
+.projects-name {
+  margin-top: 0px;
+  font-size: 19px;
 }
+
 
 @media (max-width: 320px) {
   .home-image {
@@ -217,6 +218,28 @@ ul {
   #projectsMenu ul a {
     font-size: 0.8em;
     padding-right: 0.5em;
+  }
+}
+@media (max-width:760px) {
+  #projects-bar {
+    height: 70px;
+  }
+  #projectsMenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    left: 0;
+  }
+  #projectsMenu ul{
+    float: left;
+  }
+  #projects-title {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  #projects-title {
+    height: 40px;
   }
 }
 
