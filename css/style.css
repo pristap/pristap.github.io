@@ -156,7 +156,7 @@ ul {
   margin-top: 0px;
   font-size: 19px;
 }
-.menu-hidden {
+#menu-hidden {
   float: right;
   display: none;
 }
@@ -183,7 +183,7 @@ ul {
   #menu li {
     display: none;
   }
-  .menu-hidden {
+  #menu-hidden {
     display: block;
     margin-top: 0.6em;
     font-size: 1.2em;
