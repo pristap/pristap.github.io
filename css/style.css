@@ -180,11 +180,12 @@ ul {
   #menu ul a {
     margin-top: 0.65em;
   }
-  .menu-hidden {
-    display: block;
-  }
   #menu li {
     display: none;
+  }
+  .menu-hidden {
+    display: block;
+    margin-top: 1em;
   }
 }
 /* For devices smaller than 550px */
