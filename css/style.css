@@ -183,7 +183,7 @@ ul {
   .menu-projects {
     display: block;
   }
-  .menu-visible li {
+  #menu li {
     display: none;
   }
 }
