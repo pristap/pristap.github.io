@@ -167,8 +167,11 @@ ul {
     font-size: 10px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 375px) {
   #projectsMenu ul li span{
+    display: none;
+  }
+  #menu h6 {
     display: none;
   }
 }
@@ -196,9 +199,7 @@ ul {
   #projectsMenu ul {
     float: left;
   }
-  #menu h6 {
-    display: none;
-  }
+
   #menu ul a {
     margin-top: 0.3em;
     font-size: 1em;
