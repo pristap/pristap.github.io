@@ -157,7 +157,6 @@ ul {
   font-size: 19px;
 }
 
-
 @media (max-width: 320px) {
   .home-image {
     height: 250px;
@@ -167,7 +166,7 @@ ul {
     font-size: 10px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 385px) {
   #projectsMenu ul li span{
     display: none;
   }
