@@ -206,7 +206,7 @@ ul {
     padding-right: 0.5em;
   }
   #menu ul a {
-    margin-top: 0.3em;
+    /*margin-top: 0.3em;*/
     font-size: 0.9em;
   }
   .home-image {
