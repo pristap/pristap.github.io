@@ -217,6 +217,7 @@ ul {
     display: none;
   }
   #menu ul a {
+    margin-top: 0.3em;
     font-size: 1em;
   }
   .site-header {
