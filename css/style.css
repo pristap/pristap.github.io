@@ -166,6 +166,8 @@ ul {
   .menu-projects {
     font-size: 10px;
   }
+}
+@media (max-width: 350px) {
   #projectsMenu ul li span{
     display: none;
   }
