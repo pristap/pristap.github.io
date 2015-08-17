@@ -183,6 +183,7 @@ ul {
   #site-name {
     float: left;
     max-width: 50%;
+    margin-top: 0.3em;
   }
   #menu {
     float: left;
@@ -204,7 +205,7 @@ ul {
   }
   #menu ul a {
     margin-top: 0.3em;
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .home-image {
     height: 300px;
