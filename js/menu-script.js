@@ -1,4 +1,3 @@
-var menu = document.getElementById('menu-hidden');
-menu.addEventListener("click", function(){
+document.getElementById('menu-hidden').addEventListener("click", function(){
   alert("Hello World!");
 });
