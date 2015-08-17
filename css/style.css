@@ -185,7 +185,8 @@ ul {
   }
   .menu-hidden {
     display: block;
-    margin-top: 1em;
+    margin-top: 0.6em;
+    font-size: 1.2em;
   }
 }
 /* For devices smaller than 550px */
