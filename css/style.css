@@ -173,7 +173,7 @@ ul {
   #menu h6 {
     display: none;
   }
-  #projectsMenu ul li a {
+  #menu ul a {
     margin-top: 0.65em;
   }
 }
