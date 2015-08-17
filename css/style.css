@@ -166,6 +166,9 @@ ul {
   .menu-projects {
     font-size: 10px;
   }
+  #projectsMenu ul li span{
+    display: none;
+  }
 }
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
@@ -190,9 +193,6 @@ ul {
   }
   #projectsMenu ul {
     float: left;
-  }
-  #projectsMenu ul a{
-    padding-right: 0.3em;
   }
   #menu h6 {
     display: none;
