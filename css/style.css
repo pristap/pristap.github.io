@@ -156,6 +156,10 @@ ul {
   margin-top: 0px;
   font-size: 19px;
 }
+.menu-hidden {
+  float: right;
+  display: none;
+}
 
 @media (max-width: 320px) {
   .home-image {
@@ -175,6 +179,12 @@ ul {
   }
   #menu ul a {
     margin-top: 0.65em;
+  }
+  .menu-projects {
+    display: block;
+  }
+  .menu-visible li {
+    display: none;
   }
 }
 /* For devices smaller than 550px */
