@@ -173,6 +173,9 @@ ul {
   #menu h6 {
     display: none;
   }
+  #projectsMenu ul li a {
+    margin-top: 0.3em;
+  }
 }
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
