@@ -180,7 +180,7 @@ ul {
   #menu ul a {
     margin-top: 0.65em;
   }
-  .menu-projects {
+  .menu-hidden {
     display: block;
   }
   #menu li {
