@@ -188,6 +188,19 @@ ul {
     float: right;
     max-width: 50%;
   }
+  #projectsMenu ul {
+    float: left;
+  }
+  #projectsMenu ul a{
+    padding-right: 0.5em;
+  }
+  #menu h6 {
+    display: none;
+  }
+  #menu ul a {
+    margin-top: 0.3em;
+    font-size: 1em;
+  }
   .home-image {
     height: 300px;
     width: 300px;
@@ -209,16 +222,6 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  #projectsMenu ul {
-    float: left;
-  }
-  #menu h6 {
-    display: none;
-  }
-  #menu ul a {
-    margin-top: 0.3em;
-    font-size: 1em;
   }
   .site-header {
     height: 45px;
