@@ -1,3 +1,5 @@
-document.getElementById('menu-hidden').addEventListener("click", function(){
-  alert("Hello World!");
+$(document).ready(function() {
+  $('#menu-hidden').click(function() {
+    alert("la");
+  });
 });

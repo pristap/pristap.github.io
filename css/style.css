@@ -43,6 +43,10 @@ ul {
   margin:0;
   padding:0;
 }
+#menu-hidden {
+  float: right;
+  display: none;
+}
 #projectsMenu ul {
   float: right;
   list-style: none;
@@ -156,10 +160,6 @@ ul {
   margin-top: 0px;
   font-size: 19px;
 }
-#menu-hidden {
-  float: right;
-  display: none;
-}
 
 @media (max-width: 320px) {
   .home-image {
@@ -185,7 +185,7 @@ ul {
   }
   #menu-hidden {
     display: block;
-    margin-top: 0.1em; 
+    margin-top: 0.1em;
     font-size: 1.2em;
   }
 }
