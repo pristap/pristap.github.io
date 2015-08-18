@@ -22,7 +22,6 @@ ul {
   float: left;
   padding-left: 1em;
 }
-
 #menu ul {
   list-style:none;
   position:relative;
@@ -36,7 +35,6 @@ ul {
   padding-right: 0.8em;
   font-size: 0.9em;
 }
-
 #menu ul li, #projectsMenu ul li{
   position:relative;
   float:left;
@@ -46,6 +44,9 @@ ul {
 #menu-hidden {
   float: right;
   display: none;
+}
+#menu-hidden:hover {
+  cursor: pointer;
 }
 #projectsMenu ul {
   float: right;
@@ -162,21 +163,38 @@ ul {
 }
 .responsive-menu {
   display: none;
-  right: 0;
   top: 52px;
-  font-size: 22px;
-  border-bottom: #EDEDED solid 1px;
-  border-top: #EDEDED solid 1px;
-  background-color: #BCC1C6;
+  width: 100%;
 }
 .responsive-menu ul {
   width: 100%;
-  height: 90%;
+  height: 100%;
+  top: 52px;
   position: relative;
   display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.responsive-menu li {
+  margin-bottom: 0;
+}
+.responsive-menu li a {
+  text-align: center;
+  float: none;
+  position: relative;
+  width: 100%;
+  font-size: 5em;
+  display: list-item;
+  border-bottom: #EDEDED solid 1px;
+  color: #7A7A79;
+}
+.responsive-menu li a:hover {
+  color: #696966;
 }
 .expand {
   display: block !important;
+  z-index: 100000;
 }
 
 @media (max-width: 320px) {
@@ -192,19 +210,8 @@ ul {
   #projectsMenu ul li span{
     display: none;
   }
-  #menu h6 {
-    display: none;
-  }
   #menu ul a {
     margin-top: 0.65em;
-  }
-  #menu li {
-    display: none;
-  }
-  #menu-hidden {
-    display: block;
-    margin-top: 0.1em;
-    font-size: 1.2em;
   }
 }
 /* For devices smaller than 550px */
@@ -220,6 +227,14 @@ ul {
   #menu {
     float: left;
     max-width: 50%;
+  }
+  #menu-hidden {
+    display: block;
+    margin-top: 0.1em;
+    font-size: 1.2em;
+  }
+  .menu-visible li {
+    display: none;
   }
   #footer-info {
     float: left;
