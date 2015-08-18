@@ -178,6 +178,9 @@ ul {
 }
 .responsive-menu li {
   margin-bottom: 0;
+  border-bottom: #EDEDED solid 2px;
+  display: list-item;
+  text-align: center;
 }
 .responsive-menu li a {
   text-align: center;
@@ -185,8 +188,6 @@ ul {
   position: relative;
   width: 100%;
   font-size: 5em;
-  display: list-item;
-  border-bottom: #EDEDED solid 1px;
   color: #696966;
 }
 .expand {
