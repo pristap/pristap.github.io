@@ -233,6 +233,9 @@ ul {
     display: block;
     margin-top: 0.3em;
   }
+  #menu-hidden a {
+    margin-top: 0.4em;
+  }
   #menu-hidden h5 {
     font-size: 2em;
     color: #696966;
