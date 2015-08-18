@@ -187,14 +187,14 @@ ul {
   font-size: 5em;
   display: list-item;
   border-bottom: #EDEDED solid 1px;
-  color: #7A7A79;
-}
-.responsive-menu li a:hover {
   color: #696966;
 }
 .expand {
   display: block !important;
   z-index: 100000;
+}
+.hide-content {
+  display: none;
 }
 
 @media (max-width: 320px) {
@@ -230,11 +230,11 @@ ul {
   }
   #menu-hidden {
     display: block;
-    margin-top: 0.1em;
-    font-size: 1.2em;
+    margin-top: 0.3em;
   }
-  .menu-visible li {
-    display: none;
+  #menu-hidden h5 {
+    font-size: 2em;
+    color: #696966;
   }
   #footer-info {
     float: left;
@@ -252,6 +252,9 @@ ul {
   }
   #menu ul a {
     font-size: 0.9em;
+  }
+  .menu-visible li {
+    display: none;
   }
   .home-image {
     height: 300px;
