@@ -162,14 +162,21 @@ ul {
 }
 .responsive-menu {
   display: none;
+  right: 0;
+  top: 52px;
+  font-size: 22px;
+  border-bottom: #EDEDED solid 1px;
+  border-top: #EDEDED solid 1px;
+  background-color: #BCC1C6;
 }
-.expand {
-  display: block;
+.responsive-menu ul {
   width: 100%;
   height: 90%;
-  background-color: #BCC1C6;
-  color: #FFFFFF;
-  font-size: 20px;
+  position: relative;
+  display: block;
+}
+.expand {
+  display: block !important;
 }
 
 @media (max-width: 320px) {
