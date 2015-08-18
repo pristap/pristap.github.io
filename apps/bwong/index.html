@@ -9,8 +9,12 @@
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/appstyle.css">
   <script src="/js/jquery-1.11.3.min.js"></script>
+  <script src="/js/menu-script.js"></script>
   <title> BWONG! App </title>
   <style>
+    body {
+      background-color: \#E1C800;
+    }
     .site-header {
       border-bottom-style:solid;
       border-bottom-width:1px;
@@ -34,6 +38,26 @@
     }
     .site-footer .wrapper {
       background-color: \#E1C800;
+    }
+    .responsive-menu ul {
+      background-color: \#E1C800;
+    }
+    .responsive-menu li {
+      border-bottom-color: #444444;
+      border-bottom-width: 1px;
+    }
+    .responsive-menu li a, h6 {
+      color: #444444;
+      margin-top: 1em;
+    }
+    .responsive-menu li h5 {
+      margin-top: 1em;
+    }
+    #menu-hidden {
+      margin-top: 0.1em;
+    }
+    #menu-hidden h5{
+      color: #444444;
     }
 
   </style>
@@ -70,7 +94,7 @@
 </div>
 
 
-    <div class="wrapper">
+    <div class="wrapper" id="content">
 
       <div class="intro" id="section1" data-anchor="Intro" style="background-image:url(../../images/bwong/background.png)">
         <div class="logo">

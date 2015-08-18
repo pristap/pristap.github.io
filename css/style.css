@@ -178,6 +178,7 @@ ul {
 }
 .responsive-menu li {
   margin-bottom: 0;
+  width: 100%;
   border-bottom: #EDEDED solid 2px;
   display: list-item;
   text-align: center;
@@ -186,7 +187,6 @@ ul {
   text-align: center;
   float: none;
   position: relative;
-  width: 100%;
   font-size: 5em;
   color: #696966;
 }
