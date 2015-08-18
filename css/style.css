@@ -163,13 +163,13 @@ ul {
 }
 .responsive-menu {
   display: none;
+  position: fixed;
   top: 52px;
   width: 100%;
 }
 .responsive-menu ul {
   width: 100%;
   height: 100%;
-  top: 52px;
   position: relative;
   display: block;
   list-style: none;
@@ -187,7 +187,7 @@ ul {
   text-align: center;
   float: none;
   position: relative;
-  font-size: 5em;
+  font-size: 4em;
   color: #696966;
 }
 .expand {
