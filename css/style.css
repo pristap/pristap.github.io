@@ -164,10 +164,11 @@ ul {
 }
 .responsive-menu {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 52px;
   width: 100%;
   right: -50px;
+  overflow: hidden;
 }
 .responsive-menu ul {
   width: 100%;
@@ -194,7 +195,7 @@ ul {
 }
 .expand {
   display: block !important;
-  z-index: 100000;
+  /*z-index: 100000;*/
 }
 .hide-content {
   display: none;
