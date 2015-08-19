@@ -166,6 +166,7 @@ ul {
   position: fixed;
   top: 52px;
   width: 100%;
+  right: -50px;
 }
 .responsive-menu ul {
   width: 100%;
