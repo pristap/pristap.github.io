@@ -232,10 +232,9 @@ ul {
   }
   #menu-hidden {
     display: block;
-    margin-top: 0.3em;
   }
   #menu-hidden a {
-    margin-top: 0.35em;
+    margin-top: 0.6em;
   }
   #menu-hidden h5 {
     font-size: 2em;
