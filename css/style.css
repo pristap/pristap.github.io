@@ -44,6 +44,7 @@ ul {
 #menu-hidden {
   float: right;
   display: none;
+  padding-right: 2em;
 }
 #menu-hidden:hover {
   cursor: pointer;
