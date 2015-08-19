@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-size: 1.9em;
+  font-size: 1.5em;
   overflow-x: hidden;
 }
 
@@ -67,12 +67,6 @@ p {
   padding-top: 8em;
   padding-bottom: 7.5em;
   color: #FFFFFF;
-}
-
-.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .displayed-logo {
@@ -188,8 +182,8 @@ p {
     max-width: 320px;
   }
   .screenPhone {
-    padding-top: 6.4em;
-    padding-left: 3.27em;
+    padding-top: 8.1em;
+    padding-left: 4.1em;
     max-height: 346.5px;
     width: 196px;
   }
@@ -198,8 +192,8 @@ p {
     max-width: 300px;
   }
   .screeniPad {
-    padding-top: 5.2em;
-    padding-left: 0.8em;
+    padding-top: 6.5em;
+    padding-left: 1em;
     max-height: 353px;
     width: 265px;
   }
@@ -228,8 +222,8 @@ p {
     max-width: 320px;
   }
   .screenPhone {
-    padding-top: 2.8em;
-    padding-left: 3.5em;
+    padding-top: 3.599em;
+    padding-left: 4.433333em;
     max-height: 333.1px;
     width: 187px;
   }
@@ -238,8 +232,8 @@ p {
     max-width: 250px;
   }
   .screeniPad {
-    padding-top: 3.06em;
-    padding-left: 0.68em;
+    padding-top: 3.87em;
+    padding-left: 0.82em;
     max-height: 294.7px;
     width: 221px;
   }
@@ -265,8 +259,8 @@ p {
     max-width: 350px;
   }
   .screenPhone {
-    padding-top: 3.15em;
-    padding-left: 3.7em;
+    padding-top: 3.99em;
+    padding-left: 4.7em;
     max-height: 370px;
     width: 208px;
   }
@@ -275,8 +269,8 @@ p {
     max-width: 340px;
   }
   .screeniPad {
-    padding-top: 4.9em;
-    padding-left: 0.93em;
+    padding-top: 6.25em;
+    padding-left: 1.1em;
     max-height: 640px;
     width: 300px;
   }
@@ -301,8 +295,8 @@ p {
     max-height: 520px;
   }
   .screenPhone {
-    padding-top: 3.4em;
-    padding-left: 3.6em;
+    padding-top: 4.3em;
+    padding-left: 4.55em;
     max-height: 378.5px;
     width: 213.5px;
   }
@@ -310,8 +304,8 @@ p {
     max-height: 700px;
   }
   .screeniPad {
-    padding-top: 7.58em;
-    padding-left: 0.92em;
+    padding-top: 9.55em;
+    padding-left: 1.1em;
     max-height: 400px;
     width: 300px;
   }
