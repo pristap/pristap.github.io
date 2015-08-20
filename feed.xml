@@ -6,9 +6,28 @@
 </description>
     <link>http://pristap.com/</link>
     <atom:link href="http://pristap.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2015 15:09:12 +0200</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 15:09:12 +0200</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2015 16:12:13 +0200</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2015 16:12:13 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Hello world!</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit porttitor libero, ac blandit diam. Duis quis mi a libero varius vehicula quis in lectus. Sed at tellus est. Maecenas accumsan tristique molestie. Praesent massa urna, laoreet non auctor id, volutpat ac nunc. Nullam ornare ligula a feugiat luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
+
+&lt;p&gt;Aliquam faucibus finibus ex, eu finibus risus venenatis sed. Suspendisse suscipit dolor vestibulum venenatis volutpat. Sed dictum felis vel congue vulputate. Etiam pharetra viverra felis non convallis. Sed congue urna sit amet sem dictum, non semper justo hendrerit. Morbi vitae dictum mauris. Quisque a ultrices erat. Quisque tristique ipsum id accumsan interdum. Pellentesque feugiat ullamcorper cursus. Ut semper dolor non sagittis imperdiet. Etiam pellentesque placerat dui at blandit. Vivamus semper nulla vitae metus auctor, sit amet dapibus nisi ullamcorper.&lt;/p&gt;
+
+&lt;p&gt;Mauris nibh ligula, ullamcorper eget erat sagittis, dapibus molestie nulla. Proin laoreet, neque et tincidunt maximus, nulla risus vehicula erat, volutpat ultrices nulla justo at sapien. Morbi sollicitudin, enim imperdiet tempor vulputate, urna elit sollicitudin nibh, sed ullamcorper tellus lacus in est. Mauris eget faucibus libero. Nullam lobortis velit vel lacus venenatis egestas. Curabitur condimentum ligula massa, eu porta felis viverra non. Nullam cursus faucibus efficitur. Morbi nec imperdiet tortor.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Aug 2015 15:00:00 +0200</pubDate>
+        <link>http://pristap.com/test/2015/08/20/hello-to-my-fans.html</link>
+        <guid isPermaLink="true">http://pristap.com/test/2015/08/20/hello-to-my-fans.html</guid>
+        
+        <category>new</category>
+        
+        
+        <category>test</category>
+        
+      </item>
     
       <item>
         <title>Second post</title>
@@ -67,6 +86,21 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Hey post</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Jun 2015 19:00:00 +0200</pubDate>
+        <link>http://pristap.com/test/2015/06/30/hey.html</link>
+        <guid isPermaLink="true">http://pristap.com/test/2015/06/30/hey.html</guid>
+        
+        <category>new</category>
+        
+        
+        <category>test</category>
         
       </item>
     

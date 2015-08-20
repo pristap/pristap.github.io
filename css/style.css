@@ -195,12 +195,22 @@ ul {
 }
 .expand {
   display: block !important;
-  /*z-index: 100000;*/
 }
 .hide-content {
   display: none;
 }
-
+.date {
+  font-family: 'AveriaGruesaLibre';
+}
+.month-year {
+  border-bottom: solid;
+  border-bottom-width: thin;
+  padding-bottom: 0.5em;
+  color: #474445;
+}
+.blog-list p, .blog-list h5 {
+  text-align: left;
+}
 @media (max-width: 320px) {
   .home-image {
     height: 250px;
@@ -322,4 +332,10 @@ ul {
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/BonvenoCF-Light.otf);
+}
+@font-face {
+  font-family: 'AveriaGruesaLibre';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/AveriaGruesaLibre-Regular.ttf);
 }
