@@ -7,8 +7,5 @@ $(document).ready(function() {
       $('.responsive-menu').animate({right: '-50px', opacity: '0.9'}, "fast");
     }
     $('.responsive-menu').toggleClass('expand');
-    $('.page-content').toggleClass('hide-content');
-    $('#content').toggleClass('hide-content');
-    $('.site-footer').toggleClass('hide-content');
   });
 });
