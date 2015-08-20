@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/css/hamburger.css">
   <script src="/js/jquery-1.11.3.min.js"></script>
   <script src="/js/menu-script.js"></script>
+  <script src="/js/jquery.innerfade.js"></script>
   <title> Horoscope App </title>
   <style>
     body {
@@ -130,24 +131,13 @@
         <div class="one-half column">
           <div class="iphone-device">
             <div class="displayed-iphone">
-              <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen1.png" height="490em" width="212em">
-
+              <div class="slider-iphone">
+                <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen1.png" height="490em" width="212em">
+                <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen2.png" height="490em" width="212em">
+                <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen3.png" height="490em" width="212em">
+              </div>
               <script>
-                var images = ["../../screenshots/horoscope/iPhone/screen1.png", "../../screenshots/horoscope/iPhone/screen2.png", "../../screenshots/horoscope/iPhone/screen3.png"];
-                var img = document.getElementById('screenPhone');
-                var i = 0;
-                slide();
-
-                function slide() {
-                  $(".screenPhone").fadeOut(5);
-                  img.src = images[i];
-                  i++;
-                  if ( i > 2 ) {
-                     i=0;
-                  }
-                  $(".screenPhone").fadeIn(500);
-                  setTimeout("slide()",2500);
-                }
+                $(".slider-iphone").innerfade({animationtype: 'fade', speed: 'slow',timeout: 4000, type: 'sequence'});
               </script>
 
             </div>
@@ -176,24 +166,13 @@
       <div class="one-half column">
         <div class="ipad-device">
           <div class="displayed-ipad">
-            <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad1.png" height="400em" width="300em">
-
+            <div class="slider-ipad">
+              <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad1.png" height="400em" width="300em">
+              <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad2.png" height="400em" width="300em">
+              <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad3.png" height="400em" width="300em">
+            </div>
             <script>
-              var images2 = ["../../screenshots/horoscope/iPad/ipad1.png", "../../screenshots/horoscope/iPad/ipad2.png", "../../screenshots/horoscope/iPad/ipad3.png"];
-              var img2 = document.getElementById('screeniPad');
-              var i = 0;
-              slidePad();
-
-              function slidePad() {
-                $(".screeniPad").fadeOut(5);
-                img2.src = images2[i];
-                i++;
-                if ( i > 2 ) {
-                   i=0;
-                }
-                $(".screeniPad").fadeIn(500);
-                setTimeout("slidePad()",2500);
-              }
+              $(".slider-ipad").innerfade({animationtype: 'fade', speed: 'slow',timeout: 4000, type: 'sequence'});
             </script>
 
           </div>
