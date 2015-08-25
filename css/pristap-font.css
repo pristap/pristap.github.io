@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'pristap';
+	src:url('/fonts/pristap.eot?hfz3y7');
+	src:url('/fonts/pristap.eot?#iefixhfz3y7') format('embedded-opentype'),
+		url('/fonts/pristap.ttf') format('truetype'),
+		url('/fonts/pristap.woff') format('woff'),
+		url('/fonts/pristap.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="pristap-"], [class*=" pristap-"] {
+	font-family: 'pristap';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pristap-users:before {
+	content: "\e600";
+}
+.pristap-vcard:before {
+	content: "\e601";
+}
+.pristap-linkedin:before {
+	content: "\e602";
+}
+.pristap-twitter:before {
+	content: "\e603";
+}
+.pristap-facebook:before {
+	content: "\e604";
+}
+.pristap-profile-male:before {
+	content: "\e605";
+}
+.pristap-pencil:before {
+	content: "\e606";
+}
+.pristap-user:before {
+	content: "\e607";
+}
+.pristap-pen:before {
+	content: "\e608";
+}
+.pristap-news:before {
+	content: "\e609";
+}
+.pristap-megaphone:before {
+	content: "\e60a";
+}
+.pristap-lab:before {
+	content: "\e60b";
+}
+.pristap-pencil2:before {
+	content: "\e60c";
+}
+.pristap-github:before {
+	content: "\e60d";
+}
