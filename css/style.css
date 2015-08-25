@@ -187,6 +187,13 @@ ul {
   display: list-item;
   text-align: center;
 }
+.responsive-menu li h5 {
+  height: 100%;
+  margin-top: 1rem;
+}
+.responsive-menu li:last-child {
+  margin-bottom: 2.5rem;
+}
 .responsive-menu li a {
   text-align: center;
   float: none;
