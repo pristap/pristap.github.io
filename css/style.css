@@ -167,6 +167,7 @@ ul {
   position: absolute;
   top: 52px;
   width: 100%;
+  height: 100%;
   right: -50px;
   overflow: hidden;
 }
@@ -181,7 +182,7 @@ ul {
 .responsive-menu li {
   margin-bottom: 0;
   width: 100%;
-  height: 33%;
+  height: 25%;
   border-bottom: #EDEDED solid 2px;
   display: list-item;
   text-align: center;
