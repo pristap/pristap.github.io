@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'pristap';
-	src:url('/fonts/pristap.eot?hfz3y7');
-	src:url('/fonts/pristap.eot?#iefixhfz3y7') format('embedded-opentype'),
+	src:url('/fonts/pristap.eot?-ain7gz');
+	src:url('/fonts/pristap.eot?#iefix-ain7gz') format('embedded-opentype'),
 		url('/fonts/pristap.ttf') format('truetype'),
 		url('/fonts/pristap.woff') format('woff'),
 		url('/fonts/pristap.svg') format('svg');
@@ -28,6 +28,9 @@
 }
 .pristap-vcard:before {
 	content: "\e601";
+}
+.pristap-rss:before {
+	content: "\e60e";
 }
 .pristap-linkedin:before {
 	content: "\e602";
