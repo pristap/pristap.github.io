@@ -55,7 +55,8 @@ ul {
   position: relative;
 }
 #projectsMenu ul a {
-  padding-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 #projectsMenu ul li {
   padding-top: 0;
@@ -149,7 +150,6 @@ ul {
   text-decoration: none;
   font-weight: lighter;
   font-size: 13px;
-  padding: 0 4px;
   color: #7C7F7F;
   border-top: 1px solid #BFC2C2;
   border-left: 1px solid #BFC2C2;
