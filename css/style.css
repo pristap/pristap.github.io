@@ -71,7 +71,7 @@ ul {
   border-bottom-width: thin;
   border-bottom-color: #BFC2C2;
 }
-#iphone-item {
+#all {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
@@ -229,8 +229,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-.sitemap {
-  bottom: 0;
+.lang {
+  float: right;
 }
 @media (max-width: 320px) {
   .home-image {
