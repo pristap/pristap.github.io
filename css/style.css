@@ -232,6 +232,12 @@ ul {
 .lang {
   float: right;
 }
+.sitemap {
+  list-style: circle;
+}
+.sitemap ul {
+  list-style: square;
+}
 @media (max-width: 320px) {
   .home-image {
     height: 250px;
