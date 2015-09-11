@@ -120,7 +120,27 @@
 
 <div class="post">
   <article class="post-content">
-    <style>
+    <div class="container">
+  <div class="column" id="languages">
+      <ul class="lang-menu">
+        <li> <h6><b> <a href="/apps" id="en"> EN </a> </b></h6> </li>
+        <li> <h6><b> <a href="/pl/apps" id="pl"> PL </a> </b></h6> </li>
+      </ul>
+  </div>
+</div>
+
+<script>
+  if (window.location.href.indexOf("/pl") > -1) {
+    document.getElementById("pl").style.backgroundColor = "#BFC2C2";
+    document.getElementById("pl").style.color = "#FFFFFF";
+  }
+  else{
+    document.getElementById("en").style.backgroundColor = "#BFC2C2";
+    document.getElementById("en").style.color = "#FFFFFF";
+   }
+</script>
+
+<style>
   #ipad-item {
     background-color: #BFC2C2;
     color: #FFFFFF;

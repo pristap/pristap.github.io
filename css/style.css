@@ -71,11 +71,11 @@ ul {
   border-bottom-width: thin;
   border-bottom-color: #BFC2C2;
 }
-#all {
+#en, #all {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-#watch-item {
+#pl, #watch-item {
   border-right: 1px solid #BFC2C2;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -237,6 +237,32 @@ ul {
 }
 .sitemap ul {
   list-style: square;
+}
+.lang-menu {
+  float: right;
+  list-style: none;
+  position: relative;
+}
+.lang-menu li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+.lang-menu a {
+  text-align: right;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #7C7F7F;
+  border-top: 1px solid #BFC2C2;
+  border-left: 1px solid #BFC2C2;
+  border-bottom: 1px solid #BFC2C2;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 0px;
 }
 @media (max-width: 320px) {
   .home-image {

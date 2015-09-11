@@ -33,13 +33,25 @@
     <loc>http://pristap.com/blog/</loc>
   </url>
   <url>
+    <loc>http://pristap.com/pl/devices/ipad/</loc>
+  </url>
+  <url>
+    <loc>http://pristap.com/pl/devices/iphone/</loc>
+  </url>
+  <url>
     <loc>http://pristap.com/</loc>
+  </url>
+  <url>
+    <loc>http://pristap.com/pl/devices/mac/</loc>
   </url>
   <url>
     <loc>http://pristap.com/news/</loc>
   </url>
   <url>
     <loc>http://pristap.com/sitemap.html</loc>
+  </url>
+  <url>
+    <loc>http://pristap.com/pl/devices/apple-watch/</loc>
   </url>
   <url>
     <loc>http://pristap.com/categories/entertainment/</loc>
