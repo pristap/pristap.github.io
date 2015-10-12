@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
+<link href="http://pristap.com/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://pristap.com/" rel="alternate" type="text/html" />
+<updated>2015-10-12T19:38:32+02:00</updated>
+<id>http://pristap.com/</id>
+<subtitle>We are a company dedicated for making cool apps &amp; games, making the world a better place.
+</subtitle>
+<entry>
+<title>Hello world!</title>
+<link href="http://pristap.com/test/2015/08/20/hello-to-my-fans.html" rel="alternate" type="text/html" title="Hello world!" />
+<published>2015-08-20T15:00:00+02:00</published>
+<updated>2015-08-20T15:00:00+02:00</updated>
+<id>http://pristap.com/test/2015/08/20/hello-to-my-fans</id>
+<content type="html" xml:base="http://pristap.com/test/2015/08/20/hello-to-my-fans.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit porttitor libero, ac blandit diam. Duis quis mi a libero varius vehicula quis in lectus. Sed at tellus est. Maecenas accumsan tristique molestie. Praesent massa urna, laoreet non auctor id, volutpat ac nunc. Nullam ornare ligula a feugiat luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
+
+&lt;p&gt;Aliquam faucibus finibus ex, eu finibus risus venenatis sed. Suspendisse suscipit dolor vestibulum venenatis volutpat. Sed dictum felis vel congue vulputate. Etiam pharetra viverra felis non convallis. Sed congue urna sit amet sem dictum, non semper justo hendrerit. Morbi vitae dictum mauris. Quisque a ultrices erat. Quisque tristique ipsum id accumsan interdum. Pellentesque feugiat ullamcorper cursus. Ut semper dolor non sagittis imperdiet. Etiam pellentesque placerat dui at blandit. Vivamus semper nulla vitae metus auctor, sit amet dapibus nisi ullamcorper.&lt;/p&gt;
+
+&lt;p&gt;Mauris nibh ligula, ullamcorper eget erat sagittis, dapibus molestie nulla. Proin laoreet, neque et tincidunt maximus, nulla risus vehicula erat, volutpat ultrices nulla justo at sapien. Morbi sollicitudin, enim imperdiet tempor vulputate, urna elit sollicitudin nibh, sed ullamcorper tellus lacus in est. Mauris eget faucibus libero. Nullam lobortis velit vel lacus venenatis egestas. Curabitur condimentum ligula massa, eu porta felis viverra non. Nullam cursus faucibus efficitur. Morbi nec imperdiet tortor.&lt;/p&gt;
+</content>
+<category term="new" />
+<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit porttitor libero, ac blandit diam. Duis quis mi a libero varius vehicula quis in lectus. Sed at tellus est. Maecenas accumsan tristique molestie. Praesent massa urna, laoreet non auctor id, volutpat ac nunc. Nullam ornare ligula a feugiat luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary>
+</entry>
+<entry>
+<title>Second post</title>
+<link href="http://pristap.com/test/2015/07/03/second-post.html" rel="alternate" type="text/html" title="Second post" />
+<published>2015-07-03T23:00:00+02:00</published>
+<updated>2015-07-03T23:00:00+02:00</updated>
+<id>http://pristap.com/test/2015/07/03/second-post</id>
+<content type="html" xml:base="http://pristap.com/test/2015/07/03/second-post.html">&lt;p&gt;Lalalalalalaalal lala lalal lalala lalal Alalalal l alalala.&lt;/p&gt;
+</content>
+<category term="new" />
+<summary>Lalalalalalaalal lala lalal lalala lalal Alalalal l alalala.</summary>
+</entry>
+<entry>
+<title>First post</title>
+<link href="http://pristap.com/test/2015/07/01/first-post.html" rel="alternate" type="text/html" title="First post" />
+<published>2015-07-01T19:00:00+02:00</published>
+<updated>2015-07-01T19:00:00+02:00</updated>
+<id>http://pristap.com/test/2015/07/01/first-post</id>
+<content type="html" xml:base="http://pristap.com/test/2015/07/01/first-post.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
+</content>
+<category term="new" />
+<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</summary>
+</entry>
+<entry>
+<title>Welcome to Jekyll!</title>
+<link href="http://pristap.com/jekyll/update/2015/07/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+<published>2015-07-01T00:00:00+02:00</published>
+<updated>2015-07-01T00:00:00+02:00</updated>
+<id>http://pristap.com/jekyll/update/2015/07/01/welcome-to-jekyll</id>
+<content type="html" xml:base="http://pristap.com/jekyll/update/2015/07/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;p&gt;{% highlight ruby %}
+def print_hi(name)
+  puts “Hi, #{name}”
+end
+print_hi(‘Tom’)
+#=&amp;gt; prints ‘Hi, Tom’ to STDOUT.
+{% endhighlight %}&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+<category term="old" />
+<summary>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary>
+</entry>
+<entry>
+<title>Hey post</title>
+<link href="http://pristap.com/test/2015/06/30/hey.html" rel="alternate" type="text/html" title="Hey post" />
+<published>2015-06-30T19:00:00+02:00</published>
+<updated>2015-06-30T19:00:00+02:00</updated>
+<id>http://pristap.com/test/2015/06/30/hey</id>
+<content type="html" xml:base="http://pristap.com/test/2015/06/30/hey.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;
+</content>
+<category term="new" />
+<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</summary>
+</entry>
+</feed>
