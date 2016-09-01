@@ -1,98 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://pristap.com/test/2015/08/20/hello-to-my-fans.html</loc>
-    <lastmod>2015-08-20T15:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://pristap.com/test/2015/07/03/second-post.html</loc>
-    <lastmod>2015-07-03T23:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://pristap.com/test/2015/07/01/first-post.html</loc>
-    <lastmod>2015-07-01T19:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://pristap.com/jekyll/update/2015/07/01/welcome-to-jekyll.html</loc>
-    <lastmod>2015-07-01T00:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://pristap.com/test/2015/06/30/hey.html</loc>
-    <lastmod>2015-06-30T19:00:00+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://pristap.com/about/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/apps/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/apps/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/blog/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/devices/ipad/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/devices/iphone/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/devices/mac/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/news/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/sitemap.html</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/devices/apple-watch/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/categories/entertainment/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/categories/lifestyle/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/categories/reference/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/categories/utility/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/devices/ipad/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/devices/iphone/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/devices/mac/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/devices/apple-watch/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/apps/bwong/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/apps/horoscope/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/apps/monitor/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/apps/bwong/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/apps/horoscope/</loc>
-  </url>
-  <url>
-    <loc>http://pristap.com/pl/apps/monitor/</loc>
-  </url>
+<url>
+<loc>http://pristap.com/test/2015/08/20/hello-to-my-fans.html</loc>
+<lastmod>2015-08-20T16:12:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/test/2015/07/03/second-post.html</loc>
+<lastmod>2015-07-29T16:40:46+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/test/2015/07/01/first-post.html</loc>
+<lastmod>2015-07-29T16:40:46+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/jekyll/update/2015/07/01/welcome-to-jekyll.html</loc>
+<lastmod>2015-07-29T16:40:46+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/test/2015/06/30/hey.html</loc>
+<lastmod>2015-08-20T16:12:35+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/about/</loc>
+<lastmod>2015-08-31T17:06:53+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/apps/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/apps/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/blog/</loc>
+<lastmod>2015-08-31T17:06:53+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/devices/ipad/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/devices/iphone/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/</loc>
+<lastmod>2015-10-12T19:52:36+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/devices/mac/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/news/</loc>
+<lastmod>2015-08-31T17:06:53+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/sitemap.html</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/devices/apple-watch/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/apps/bwong/</loc>
+<lastmod>2015-09-02T15:04:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/apps/horoscope/</loc>
+<lastmod>2015-09-02T15:04:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/apps/monitor/</loc>
+<lastmod>2015-09-02T15:04:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/apps/bwong/</loc>
+<lastmod>2015-09-02T15:04:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/apps/horoscope/</loc>
+<lastmod>2015-09-02T15:04:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/pl/apps/monitor/</loc>
+<lastmod>2015-09-02T15:04:51+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/categories/entertainment/</loc>
+<lastmod>2015-08-12T16:39:07+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/categories/lifestyle/</loc>
+<lastmod>2015-08-12T16:39:07+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/categories/reference/</loc>
+<lastmod>2015-08-12T16:39:07+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/categories/utility/</loc>
+<lastmod>2015-08-12T16:39:07+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/devices/ipad/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/devices/iphone/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/devices/mac/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
+<url>
+<loc>http://pristap.com/devices/apple-watch/</loc>
+<lastmod>2015-09-11T16:49:29+02:00</lastmod>
+</url>
 </urlset>

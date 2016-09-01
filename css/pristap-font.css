@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'pristap';
-	src:url('/fonts/pristap.eot?-ain7gz');
-	src:url('/fonts/pristap.eot?#iefix-ain7gz') format('embedded-opentype'),
-		url('/fonts/pristap.ttf') format('truetype'),
-		url('/fonts/pristap.woff') format('woff'),
-		url('/fonts/pristap.svg') format('svg');
+	src:url('../fonts/pristap.eot?-ain7gz');
+	src:url('../fonts/pristap.eot?#iefix-ain7gz') format('embedded-opentype'),
+		url('../fonts/pristap.ttf') format('truetype'),
+		url('../fonts/pristap.woff') format('woff'),
+		url('../fonts/pristap.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

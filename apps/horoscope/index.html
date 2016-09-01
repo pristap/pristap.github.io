@@ -1,20 +1,20 @@
-<html>
+<html amp>
 
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/pristap-font.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/skeleton.css">
-  <link rel="stylesheet" href="/css/appstyle.css">
-  <link rel="stylesheet" href="/css/hamburger.css">
-  <link rel="stylesheet" href="/css/magic.css">
-  <script src="/js/jquery-1.11.3.min.js"></script>
-  <script src="/js/menu-script.js"></script>
-  <script src="/js/jquery.innerfade.js"></script>
+  <link rel="stylesheet" href="./css/pristap-font.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/skeleton.css">
+  <link rel="stylesheet" href="./css/appstyle.css">
+  <link rel="stylesheet" href="./css/hamburger.css">
+  <link rel="stylesheet" href="./css/magic.css">
+  <script src="./js/jquery-1.11.3.min.js"></script>
+  <script src="./js/menu-script.js"></script>
+  <script src="./js/jquery.innerfade.js"></script>
   <title> Horoscope App </title>
-  <style>
+  <style amp-custom>
     body {
       background-color: \#FFFFFF;
     }
@@ -119,12 +119,12 @@
 
       <div class="intro" id="section1" data-anchor="Intro" style="background-image:url(../../images/horoscope/background.png)">
         <div class="logo">
-          <a href="/apps/horoscope"><img class="app-logo-iphone" src="/images/appLogos/horoscope.png" height="200" width="200"></a>
+          <a href="/apps/horoscope"><amp-img class="app-logo-iphone" src="/images/appLogos/horoscope.png" height="200" width="200"></a>
         </div>
         <div class="text">
           <p> The name says it all, your daily horoscope app! </p>
 
-          <a href="https://itunes.apple.com/mk/app/daily-horoscope/id892389886?mt=8"> <img class="appstore" src="../../images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="50"/> </a>
+          <a href="https://itunes.apple.com/mk/app/daily-horoscope/id892389886?mt=8"> <amp-img class="appstore" src="../../images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" height="50"/> </a>
 
           
             
@@ -145,9 +145,9 @@
           <div class="iphone-device">
             <div class="displayed-iphone">
               <div class="slider-iphone">
-                <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen1.png" height="490em" width="212em">
-                <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen2.png" height="490em" width="212em">
-                <img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen3.png" height="490em" width="212em">
+                <amp-img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen1.png" height="490em" width="212em">
+                <amp-img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen2.png" height="490em" width="212em">
+                <amp-img class="screenPhone" id="screenPhone" src="../../screenshots/horoscope/iPhone/screen3.png" height="490em" width="212em">
               </div>
               <script>
                 $(".slider-iphone").innerfade({animationtype: 'fade', speed: 'slow',timeout: 4000, type: 'sequence'});
@@ -180,9 +180,9 @@
         <div class="ipad-device">
           <div class="displayed-ipad">
             <div class="slider-ipad">
-              <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad1.png" height="400em" width="300em">
-              <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad2.png" height="400em" width="300em">
-              <img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad3.png" height="400em" width="300em">
+              <amp-img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad1.png" height="400em" width="300em">
+              <amp-img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad2.png" height="400em" width="300em">
+              <amp-img class="screeniPad" id="screeniPad" src="../../screenshots/horoscope/iPad/ipad3.png" height="400em" width="300em">
             </div>
             <script>
               $(".slider-ipad").innerfade({animationtype: 'fade', speed: 'slow',timeout: 4000, type: 'sequence'});
@@ -201,7 +201,7 @@
       <div class="row">
       <div class="one-half column">
         <div class="watch-device">
-          <img class="displayed-watch" src="../../frames/watch-frame.png" height="400em" width="200em"/>
+          <amp-img class="displayed-watch" src="../../frames/watch-frame.png" height="400em" width="200em"/>
         </div>
       </div>
 
@@ -218,7 +218,7 @@
   <footer class="site-footer">
   <div class="wrapper">
       <ul id="footer-info">
-        <li> <h5> <a href="/feed.xml"> <span class="pristap-rss" </span></a> </h5> </li>
+        <li> <h5> <a href="./feed.xml"> <span class="pristap-rss" </span></a> </h5> </li>
       </ul>
       <ul id="footer-links">
         <li> <a target="_blank" href="https://www.facebook.com/pages/Pristap/952393318136574?sk=timeline"> <h5> <span class="pristap-facebook"> </span> </h5> </a> </li>
