@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'jekyll-feed'
-gem 'jekyll-last-modified-at'
+
+group :jekyll_plugins do
+  gem 'jekyll-deploy'
+	gem 'jekyll-sitemap'
+	gem 'jekyll-feed'
+	gem 'jekyll_inline_highlight'
+end
